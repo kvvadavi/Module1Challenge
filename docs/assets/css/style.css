@@ -1,13 +1,16 @@
+/* Universal decleration of CSS */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* Background color of HTML of webpage is applied here. */
 body {
     background-color: #d9dcd6;
 }
 
+/* How a header of page should look like is defined in header class. */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,31 +18,42 @@ body {
     color: #ffffff;
 }
 
-.header h1 {
+/* We have one H1 header in full HTML. Hence defining CSS for H1 element should be good. Deleted .header */
+h1 {
     display: inline-block;
     font-size: 48px;
 }
 
-.header h1 .seo {
+/* seo class is to change the color of word seo which is present in h1 header in line */
+.seo {
     color: #d9dcd6;
 }
 
-.header div {
+
+/* .header div {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
-}
+} */
 
-.header div ul {
+/* I feel that this CSS element is not needed. */
+/* .header div ul {
     list-style-type: none;
+} */
+
+nav {
+    display: inline-block;
+    margin-left: 1600px;
+    color: #ffffff;
 }
 
-.header div ul li {
+/* .header div ul li {
     display: inline-block;
     margin-left: 25px;
-}
+    list-style: none;
+} */
 
 a {
     color: #ffffff;
