@@ -14,6 +14,9 @@ This repo hosts the webpage which provides details related to search engine opti
 ## Need to work on this code for feature additions?
 * Clone the repo.
 * Checkout with new branch.
+* Open `./docs/index.html` for Content Addition. Save the Changes.
+* Open `./docs/assets/css/style.css` for CSS styling.
+* Add/Delete images to `./docs/assets/images` folder.
 * Push updates of code to your branch.
 * Create Pull Request for merging the code to main branch.
 * Ask for Peer review and approve the PR.
